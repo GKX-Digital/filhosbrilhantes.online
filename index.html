@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <link rel="preload" href="https://scripts.converteai.net/94dde00c-b60a-447e-8572-224ed6fce7d3/players/62c4d04834f294000af4f184/player.js" as="script">
-    <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
-    <link rel="preload" href="https://images.converteai.net/94dde00c-b60a-447e-8572-224ed6fce7d3/players/62c4d04834f294000af4f184/thumbnail.jpg" as="image">
-    <link rel="preload" href="https://cdn.converteai.net/94dde00c-b60a-447e-8572-224ed6fce7d3/62c4cc9904d7e7000b83b675/playlist.m3u8" as="fetch">
-    <link rel="dns-prefetch" href="https://cdn.converteai.net">
-    <link rel="dns-prefetch" href="https://scripts.converteai.net">
-    <link rel="dns-prefetch" href="https://images.converteai.net">
-    <link rel="dns-prefetch" href="https://api.vturb.com.br">
-    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -22,7 +13,7 @@
     <link rel="stylesheet" href="./assets/css/com.css">
 
     <!-- Título da Página -->
-    <title>Filhos Brilhantes</title>
+    <title>Filho Sem Celular</title>
     
     <style type="text/css">
       header {
@@ -34,10 +25,21 @@
         background-attachment: fixed;
         background-blend-mode: darken;
       }
+      .banner{
+        background-color: #FF008C;
+      }
     </style>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>$.get("https://ipinfo.io/json", function (response) { $("#ip").html("IP: " + response.ip); $("#address").html(response.city); $("#details").html(JSON.stringify(response, null, 4)); }, "jsonp");
+    </script>
     
   </head>
   <body>
+    
+    <div class="banner py-lg-2 py-sm-1 center">
+    <center><span style="font-size:16px;color: #FFFFFF"><b>Você e algumas mães de</span> <b><span style="font-size:16px" id="address"></span></b> <span style="font-size:16px;color: #FFFFFF">foram selecionadas para assistir a este vídeo.</span></b></center>
+    </div>
     
     <header class="py-4">
       <div class="container">
@@ -45,12 +47,14 @@
           <div class="col-lg-8 text-center">
             
             <!-- Imagem Ultrasecreto -->
-            <img class="img-fluid" src="./assets/img/headline12.png" style="margin-top:-15px">
-
-            <!-- VSL -->
-            <div id="vid_62c4d04834f294000af4f184" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_62c4d04834f294000af4f184" src="https://images.converteai.net/94dde00c-b60a-447e-8572-224ed6fce7d3/players/62c4d04834f294000af4f184/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_62c4d04834f294000af4f184" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_62c4d04834f294000af4f184">var s=document.createElement("script");s.src="https://scripts.converteai.net/94dde00c-b60a-447e-8572-224ed6fce7d3/players/62c4d04834f294000af4f184/player.js",s.async=!0,document.head.appendChild(s);</script>
+            <img class="img-fluid" src="./assets/img/vermelho.png" style="margin-top:-5px">
+            <br>
+            <br>
             
-            <div class="quadro" style="margin-top: 10px;color: #f5e051;">
+            <!-- VSL -->
+            <div id="vid_62d620916008c2000ba7164e" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_62d620916008c2000ba7164e" src="https://images.converteai.net/94dde00c-b60a-447e-8572-224ed6fce7d3/players/62d620916008c2000ba7164e/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_62d620916008c2000ba7164e" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_62d620916008c2000ba7164e">var s=document.createElement("script");s.src="https://scripts.converteai.net/94dde00c-b60a-447e-8572-224ed6fce7d3/players/62d620916008c2000ba7164e/player.js",s.async=!0,document.head.appendChild(s);</script>
+            
+            <div class="quadro" style="margin-top: 10px;color: #f5e051">
               <b>👁 <span id="number"></span> PESSOAS ESTÃO ASSISTINDO A ESSE VÍDEO AGORA...</b>
 
                 <script>
@@ -68,12 +72,7 @@
                 <span class="span-btn2">(Atenção: Últimas vagas disponíveis)</span>
               </a>
               <img class="img-fluid" src="./assets/img/secure.webp" style="width:50%">
-            </div>
-            <div>
-              <img class="img-fluid" src="./assets/img/logo_noticias.png" style="width:50%;margin-top:20px;margin-bottom:10px">
-            </div>
               
-            <div class="d-none">
               <br><br><br><b><span style="color: #FFFFFF;font-family:montserrat;font-size: 26px;"><u>NESTA OCASIÃO ESPECIAL PARA AS 22 VAGAS RESTANTES:</u><br><br></b><span style="font-family:montserrat;font-size: 24px;color: #f5e051"><b>DESCONTO DE 90% DISPONÍVEL SÓ POR HOJE<brb></span>
                 <br><b><br>-------------------------------</b><br><br><span style="color: #FFFFFF;font-family:montserrat;font-size: 26px;"> NORMALMENTE AVALIADO EM: <span style="color: #FF0000"><s>R$997 REAIS</span></s>
                 <br><b><span style="color: #11B613;">POR APENAS:<br></b></span>
@@ -83,7 +82,17 @@
                 <a href="https://pay.kiwify.com.br/Sy066DP"><span style="font-family:montserrat;font-size: 20px;">🛒 <u><b>Adicionar ao Carrinho</a></u></b><br>
                 <img class="mx-auto" height="40px" src="./assets/img/Captura.png">
             </div>
-      
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
           </div>
         </div>
       </div>
@@ -94,7 +103,7 @@
     </footer>
 
     <script type="text/javascript">
-      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 960000); // temporização da Call to Action (em milissegundos)
+      setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 905000); // temporização da Call to Action (em milissegundos)
     </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -118,6 +127,12 @@
       fbq('init', '443778574234713');
       fbq('init', '353140683637066');
       fbq('init', '1006498466715983');
+      fbq('init', '568755621419541');
+      fbq('init', '592743812420393');
+      fbq('init', '607605254040464');
+      fbq('init', '401108838527600');
+      fbq('init', '829612625080571'); 
+      fbq('init', '718130866008444'); 
       fbq('track', 'PageView');
       fbq('track', 'ViewContent');
     </script>
@@ -149,4 +164,4 @@
     </script> 
 
   </body>
-</html>
+</html
